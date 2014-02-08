@@ -1,1 +1,3 @@
-["redis-brain.coffee", "javascript-sandbox.coffee", "remind.coffee", "urban.coffee", "talkative.coffee"]
+["redis-brain.coffee", "javascript-sandbox.coffee", "remind.coffee",
+ "urban.coffee", "talkative.coffee",
+ "twitter.coffee"]
