@@ -2,10 +2,10 @@
 #   A way to interact with the Google Images API.
 #
 # Commands:
-#   hubot image me <query> - The Original. Queries Google Images for <query> and returns a random top result.
+#   hubot image <query> - Queries Google Images for <query> and returns a random top result.
 
 module.exports = (robot) ->
-  robot.respond /(image|img)( me)? (.*)/i, (msg) ->
+  robot.respond /(image|img) (.*)/i, (msg) ->
     imageMe msg, msg.match[3], (url) ->
       msg.send url
 
