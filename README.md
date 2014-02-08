@@ -6,6 +6,14 @@ framework. Unlike the original HandyBot, this bot has battle-tested
 IRC code, pluggable backends (including a local test backend) and
 Redis persistence.
 
+## Installation
+
+    $ sudo pacman -S redis
+    $ sudo systemctl start redis
+    $ git clone git@github.com:Wilfred/HandyBot2.git
+    $ cd HandyBot2
+    $ npm install .
+
 ### Testing Hubot Locally
 
 You can test your hubot by running the following.
@@ -23,15 +31,6 @@ prompt.
 Then you can interact with hubot by typing `hubot help`.
 
     Hubot> hubot help
-
-    Hubot> animate me <query> - The same thing as `image me`, except adds a few
-    convert me <expression> to <units> - Convert expression to given units.
-    help - Displays all of the help commands that Hubot knows about.
-    ...
-
-### Redis Persistence
-
-You will need a local Redis instance installed to run this bot.
 
 ## Adapters
 
