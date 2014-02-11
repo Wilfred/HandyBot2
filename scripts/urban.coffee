@@ -9,6 +9,7 @@
 #
 # Commands:
 #   hubot urban define <term>  - Searches Urban Dictionary and returns definition
+#   hubot urban example <term> - Searches Urban Dictionary and returns example 
 #
 # Author:
 #   Travis Jeffery (@travisjeffery)
@@ -20,12 +21,15 @@
 
 module.exports = (robot) ->
 
-  robot.respond /urban define (.*)/i, (msg) ->
-    urbanDict msg, msg.match[1], (found, entry, sounds) ->
+  robot.respond /(urban)( define)?( example)?( me)? (.*)/i, (msg) ->
+    urbanDict msg, msg.match[5], (found, entry, sounds) ->
       if !found
-        msg.send "\"#{msg.match[1]}\" not found"
+        msg.send "\"#{msg.match[5]}\" not found"
         return
-      msg.send "#{entry.definition}"
+      if msg.match[3]
+        msg.send "#{entry.example}"
+      else
+        msg.send "#{entry.definition}"
       if sounds and sounds.length
         msg.send "#{sounds.join(' ')}"
 
