@@ -2,7 +2,7 @@
 #   Pretty print a unix timestamp.
 #
 # Commands:
-#   hubot timestamp <timstamp - Pretty print a unix timestamp.
+#   hubot timestamp <unix time> - Pretty print a unix timestamp.
 #
 # Author:
 #   wilfred
