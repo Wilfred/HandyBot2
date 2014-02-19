@@ -14,6 +14,10 @@ Redis persistence.
     $ cd HandyBot2
     $ npm install .
 
+On Ubuntu, you will need to install `libicu-dev` in order for
+stringprep to build correctly and
+[POSIX semaphores must work](http://stackoverflow.com/a/2009505).
+
 ### Testing Hubot Locally
 
 You can test your hubot by running the following.
