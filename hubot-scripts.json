@@ -1,2 +1,2 @@
 ["redis-brain.coffee", "javascript-sandbox.coffee", "remind.coffee",
- "talkative.coffee", "google-search-api.coffee"]
+ "google-search-api.coffee", "factoid.coffee"]
