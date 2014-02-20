@@ -29,7 +29,8 @@
     "hubot-irc": "~0.1.24",
     "underscore": "~1.5.2",
     "twit": "~1.1.12",
-    "moment": "~2.5.1"
+    "moment": "~2.5.1",
+    "hubot-calculator": "^0.2.0"
   },
   "engines": {
     "node": ">= 0.8.x",
