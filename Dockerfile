@@ -6,7 +6,7 @@ RUN apt-get -qq update
 
 # Grab our dependencies, without prompting for input (redis tries to
 # prompt).
-RUN DEBIAN_FRONTEND=noninteractive apt-get -qqy install git redis-server nodejs npm
+RUN DEBIAN_FRONTEND=noninteractive apt-get -qqy install git redis-server nodejs nodejs-legacy npm
 
 # Grab the code.
 RUN mkdir -p /opt
