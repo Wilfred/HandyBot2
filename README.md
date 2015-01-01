@@ -6,6 +6,8 @@ framework. Unlike the original HandyBot, this bot has battle-tested
 IRC code, pluggable backends (including a local test backend) and
 Redis persistence.
 
+[![Dependency Status](https://david-dm.org/wilfred/handybot2.svg)](https://david-dm.org/wilfred/handybot2)
+
 ## Installation
 
     $ sudo pacman -S redis
