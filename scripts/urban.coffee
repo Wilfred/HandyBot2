@@ -30,8 +30,6 @@ module.exports = (robot) ->
         msg.send "#{entry.example}"
       else
         msg.send "#{entry.definition}"
-      if sounds and sounds.length
-        msg.send "#{sounds.join(' ')}"
 
 urbanDict = (msg, query, callback) ->
   msg.http("http://api.urbandictionary.com/v0/define?term=#{escape(query)}")
