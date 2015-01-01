@@ -1,10 +1,9 @@
 # HandyBot 2
 
-This is a reimplementation of
-[HandyBot](https://github.com/Wilfred/HandyBot) on the Hubot
-framework. Unlike the original HandyBot, this bot has battle-tested
-IRC code, pluggable backends (including a local test backend) and
-Redis persistence.
+This is a Hubot instance configured to meet my day-to-day development
+needs plus a few entertainment options. It's heavily based on
+[HandyBot](https://github.com/Wilfred/HandyBot), a homegrown Clojure
+IRC bot, but more featureful.
 
 [![Dependency Status](https://david-dm.org/wilfred/handybot2.svg)](https://david-dm.org/wilfred/handybot2)
 
