@@ -5,6 +5,10 @@ needs plus a few entertainment options. It's heavily based on
 [HandyBot](https://github.com/Wilfred/HandyBot), a homegrown Clojure
 IRC bot, but more featureful.
 
+This bot includes some third-party packages, and some third-party
+packaages that I've hacked. Bugfixes are pushed upstream, but in some
+cases I've removed features, in which case we keep the hacked version.
+
 [![Dependency Status](https://david-dm.org/wilfred/handybot2.svg)](https://david-dm.org/wilfred/handybot2)
 
 ## Installation
