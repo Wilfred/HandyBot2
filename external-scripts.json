@@ -1,5 +1,6 @@
 ["hubot-thank-you", "hubot-calculator", "hubot-markov",
  "hubot-darts",
+ "hubot-redis-brain",
  "hubot-cron",
  "hubot-tell"
 ]
