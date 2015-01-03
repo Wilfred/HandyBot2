@@ -29,6 +29,7 @@
     "hubot-tell": "^1.2.3",
     "hubot-thank-you": "0.0.3",
     "hubot-xmpp": "^0.1.13",
+    "jsdom": "^0.8.11",
     "moment": "~2.5.1",
     "request": "^2.51.0",
     "sandbox": "^0.8.6",
