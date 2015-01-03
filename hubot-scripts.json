@@ -1,5 +1,4 @@
 ["redis-brain.coffee", "javascript-sandbox.coffee", "remind.coffee",
  "google-search-api.coffee", "factoid.coffee",
- "uptime.coffee",
- "isup.coffee"
+ "uptime.coffee"
 ]
