@@ -2,5 +2,6 @@
  "hubot-darts",
  "hubot-redis-brain",
  "hubot-cron",
+ "hubot-factoids",
  "hubot-tell"
 ]
