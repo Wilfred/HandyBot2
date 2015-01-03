@@ -1,2 +1,4 @@
 ["hubot-thank-you", "hubot-calculator", "hubot-markov", "hubot-read-tweet",
- "hubot-substitute"]
+ "hubot-tell",
+ "hubot-substitute"
+]
