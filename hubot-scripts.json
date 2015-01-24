@@ -1,6 +1,7 @@
 ["javascript-sandbox.coffee", "remind.coffee",
  "google-search-api.coffee",
  "isup.coffee",
+ "abstract.coffee",
  "advice.coffee",
  "decide.coffee",
  "polite.coffee",
