@@ -1,4 +1,5 @@
 ["javascript-sandbox.coffee", "remind.coffee",
  "google-search-api.coffee",
+ "polite.coffee",
  "uptime.coffee"
 ]

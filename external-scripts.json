@@ -1,5 +1,4 @@
-["hubot-thank-you",
- "hubot-calculator",
+["hubot-calculator",
  "hubot-darts",
  "hubot-redis-brain",
  "hubot-factoids"
