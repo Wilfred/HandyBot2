@@ -1,4 +1,5 @@
 ["hubot-calculator",
  "hubot-redis-brain",
+ "hubot-substitute",
  "hubot-factoids"
 ]
