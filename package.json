@@ -27,6 +27,7 @@
     "hubot-substitute": "^0.2.0",
     "hubot-tg": "git://github.com/zenitram/hubot-tg",
     "hubot-xmpp": "^0.1.13",
+    "ifvms": "^0.1.0",
     "jsdom": "^0.8.11",
     "moment": "~2.5.1",
     "request": "^2.51.0",
