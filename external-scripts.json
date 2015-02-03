@@ -2,5 +2,6 @@
  "hubot-redis-brain",
  "hubot-substitute",
  "hubot-cron",
+ "hubot-quote-database",
  "hubot-factoids"
 ]
