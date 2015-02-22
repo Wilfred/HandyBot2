@@ -18,7 +18,6 @@
     "url": "https://github.com/github/hubot.git"
   },
   "dependencies": {
-    "cheerio": "^0.18.0",
     "hubot": "^2.11.0",
     "hubot-calculator": "^0.4.0",
     "hubot-cron": "git+https://github.com/miyagawa/hubot-cron.git#0b4723e8fdcf8ad54eebea080fde50a3b1772c7b",
