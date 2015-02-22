@@ -5,5 +5,6 @@
  "decide.coffee",
  "polite.coffee",
  "botsnack.coffee",
+ "tasks.coffee",
  "uptime.coffee"
 ]
