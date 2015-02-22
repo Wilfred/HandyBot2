@@ -17,25 +17,13 @@ cases I've removed features, in which case we keep the hacked version.
     $ sudo systemctl start redis
     $ git clone git@github.com:Wilfred/HandyBot2.git
     $ cd HandyBot2
-    $ npm install .
-
-On Ubuntu, you will need to install `libicu-dev` in order for
-stringprep to build correctly and
-[POSIX semaphores must work](http://stackoverflow.com/a/2009505).
+    $ npm install --python=`which python2`
 
 ### Testing Hubot Locally
 
 You can test your hubot by running the following.
 
     % bin/hubot
-
-You'll see some start up output about where your scripts come from and a
-prompt.
-
-    [Sun, 04 Dec 2011 18:41:11 GMT] INFO Loading adapter shell
-    [Sun, 04 Dec 2011 18:41:11 GMT] INFO Loading scripts from /home/tomb/Development/hubot/scripts
-    [Sun, 04 Dec 2011 18:41:11 GMT] INFO Loading scripts from /home/tomb/Development/hubot/src/scripts
-    Hubot>
 
 Then you can interact with hubot by typing, e.g. `hubot help`.
 
