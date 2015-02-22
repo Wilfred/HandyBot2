@@ -28,6 +28,7 @@
     "hubot-scripts": "git+https://github.com/github/hubot-scripts.git#4e1ad8b1c878a6645a47d72344e57d1fba0f38ac",
     "hubot-substitute": "git+https://github.com/wilfred/hubot-substitute.git#b2a78780571d0ce281c8748a09df7e950b5cfdb0",
     "hubot-tg": "git://github.com/zenitram/hubot-tg",
+    "hubot-tube-status": "^0.1.1",
     "jsdom": "^0.8.11",
     "moment": "~2.5.1",
     "request": "^2.51.0",
