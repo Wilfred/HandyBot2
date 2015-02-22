@@ -23,6 +23,7 @@
     "hubot-calculator": "^0.4.0",
     "hubot-cron": "git+https://github.com/miyagawa/hubot-cron.git#0b4723e8fdcf8ad54eebea080fde50a3b1772c7b",
     "hubot-factoids": "^0.2.4",
+    "hubot-help": "^0.1.1",
     "hubot-quote-database": "^1.0.0",
     "hubot-redis-brain": "0.0.2",
     "hubot-scripts": "git+https://github.com/github/hubot-scripts.git#6399eeb884fc8a4e7260de8eb89955db1fb9a3af",
