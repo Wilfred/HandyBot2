@@ -1,9 +1,9 @@
 ["hubot-calculator",
  "hubot-help",
  "hubot-redis-brain",
+ "hubot-remind-her",
  "hubot-substitute",
  "hubot-tube-status",
- "hubot-cron",
  "hubot-quote-database",
  "hubot-factoids"
 ]

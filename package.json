@@ -15,11 +15,11 @@
   "dependencies": {
     "hubot": "^2.11.0",
     "hubot-calculator": "^0.4.0",
-    "hubot-cron": "git+https://github.com/miyagawa/hubot-cron.git#0b4723e8fdcf8ad54eebea080fde50a3b1772c7b",
     "hubot-factoids": "^0.2.4",
     "hubot-help": "^0.1.1",
     "hubot-quote-database": "^1.0.0",
     "hubot-redis-brain": "0.0.2",
+    "hubot-remind-her": "^0.4.1",
     "hubot-scripts": "git+https://github.com/github/hubot-scripts.git#4e1ad8b1c878a6645a47d72344e57d1fba0f38ac",
     "hubot-substitute": "git+https://github.com/wilfred/hubot-substitute.git#b2a78780571d0ce281c8748a09df7e950b5cfdb0",
     "hubot-tg": "git://github.com/zenitram/hubot-tg",
