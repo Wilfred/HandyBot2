@@ -14,11 +14,13 @@
 #   Brandon Satrom
 
 bingAccountKey = process.env.HUBOT_BING_ACCOUNT_KEY
-unless bingAccountKey
-  throw "You must set HUBOT_BING_ACCOUNT_KEY in your environment vairables"
 
 module.exports = (robot) ->
   robot.respond /image( me)? (.*)/i, (msg) ->
+    unless bingAccountKey
+      msg.send "You must set HUBOT_BING_ACCOUNT_KEY in your environment variables"
+      return
+    
     imageMe msg, msg.match[2], (url) ->
       msg.send url
 
